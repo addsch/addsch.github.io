@@ -5,25 +5,35 @@ ul {
 	overflow: hidden;
 }
 
-li {
-	float: left;
-	border-right: 1px solid white;
-}
-
-li:last-child {
-	border-right: none;
-	border-left: 1px solid white;
-}
-
-li a {
-	display: block;
+.topButtons button {
+	background-color: #9d2235;
+	border: none;
+	border-radius: 16px;
 	color: #dadada;
+	cursor: pointer;
+	float: left;
+	font-family: Fira Mono;
+	font-size: 24px;
+	margin: 4px 24px;
+	padding: 15px 16px;
 	text-align: center;
-	text-decoration: none;
+	transition-duration: 0.7s;
+	width: 50%;
 }
 
-li a:hover:not(.active) {
-	background-color: #41000a;
+.topButtons {
+	display: flex;
+	justify-content: center;
+}
+
+.topButtons a{
+	text-decoration: none;
+	color: inherit;
+}
+
+button:hover {
+	background-color: #491019; /* Green */
+	color: white;
 }
 
 p {
@@ -47,64 +57,6 @@ body {
 	color: #dadada;
 }
 
-.navbar {
-	overflow: hidden;
-	background-color: #9d2235;
-	font-family: Fira Code;
-	border-radius: 8px;
-}
-
-.navbar a {
-	float: left;
-	font-size: 24px;
-	color: #dadada;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-.dropdown {
-	float: left;
-	overflow: auto;
-}
-
-.dropdown .dropbtn {
-	cursor: pointer;
-	font-size: 24px;
-	border: none;
-	outline: none;
-	color: #dadada;
-	padding: 14px 16px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #c75969;
-	box-shadow: 0px 8px 16px 0px rgba(201, 201, 201, 0.363);
-	z-index: 1;
-	min-width: 10%;
-	text-align: center;
-}
-
-.dropdown-content a {
-	float: none;
-	color: #dadada;
-	text-decoration: none;
-	display: block;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
-.dropdown:hover .dropbtn {
-	background-color: #41000a;
-}
-
 .row:after {
 	content: "";
 	display: table;
@@ -120,6 +72,15 @@ body {
 .ghIcon img {
 	width: 28px;
 	height: 28px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 2px;
+}
+
+.eIcon img {
+	width: 34px;
+	height: 24px;
 	text-align: center;
 	display: block;
 	margin: auto;
@@ -142,4 +103,8 @@ body {
 }
 .subname p {
 	margin: 5px;
+}
+
+.headshot img{
+	border-radius: 12px;
 }
