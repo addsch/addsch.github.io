@@ -1,125 +1,151 @@
 .navbar {
-  overflow: hidden;
-  background-color: #9d2235;
-  font-family: Fira Code;
-  border-radius: 8px;
+	overflow: hidden;
+	background-color: #9d2235;
+	font-family: Fira Code;
+	border-radius: 8px;
 }
 
 .navbar a {
-  float: left;
-  font-size: 1.5vw;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	float: left;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 .dropdown {
-  float: left;
-  overflow: auto;
-  
+	float: left;
+	overflow: auto;
 }
 
 .dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 1.5vw;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+	cursor: pointer;
+	font-size: 24px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #c75969;
-  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.363);
-  z-index: 1;
-  min-width: 10%;
-  text-align: center
+	display: none;
+	position: absolute;
+	background-color: #c75969;
+	box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.363);
+	z-index: 1;
+	min-width: 10%;
+	text-align: center;
 }
 
 .dropdown-content a {
-  float: none;
-  color: white;
-  text-decoration: none;
-  display: block;
-  text-align: center;
+	float: none;
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+	display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #41000a;
+	background-color: #41000a;
 }
 
 .show {
-  display: block;
+	display: block;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 li {
-  float: left;
-  border-right: 1px solid #c8c2ea;
+	float: left;
+	border-right: 1px solid white;
 }
 
 li:last-child {
-  border-right: none;
-  border-left: 1px solid #eae5c2;
+	border-right: none;
+	border-left: 1px solid white;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #41000a;
+	background-color: #41000a;
 }
 
 p {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 body {
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: black;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #HomeInfo {
-  font-family: Fira Code;
-  font-size: 1vw;
-  color: white;
+	font-family: Fira Code;
+	font-size: 16px;
+	color: white;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .column {
-  float: left;
-  width: 50%;
-  padding: 1%;
+	float: left;
+	width: 50%;
+	padding: 1%;
 }
 
+
+.ghIcon img {
+	width: 28px;
+	height: 28px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 2px;
+}
+
+.name {
+  color:white;
+  font-family: Fira Code;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.subname {
+  color: white;
+  font-family: Fira Code;
+  text-align: center;
+  font-size: 22px;
+}
+.subname p{
+  margin: 5px;
+}
