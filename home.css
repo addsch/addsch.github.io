@@ -17,8 +17,8 @@ ul {
 	margin: 4px 24px;
 	padding: 15px 16px;
 	text-align: center;
-	transition-duration: 0.7s;
-	width: 50%;
+	transition-duration: 0.3s;
+	width:14vw;
 }
 
 .topButtons {
@@ -32,7 +32,7 @@ ul {
 }
 
 button:hover {
-	background-color: #491019; /* Green */
+	background-color: #491019;
 	color: white;
 }
 
