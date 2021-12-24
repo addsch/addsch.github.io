@@ -1,87 +1,8 @@
-button:hover {
-	background-color: #491019;
-	color: white;
-}
-
-body {
-	width: 70%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: black;
-}
-
-p {
-	overflow: hidden;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-#HomeInfo {
-	font-family: Fira Code;
-	font-size: 16px;
-	color: #dadada;
-}
-
-.column {
-	float: left;
-	width: 50%;
-	padding: 1%;
-}
-
-.eIcon img {
-	width: 34px;
-	height: 24px;
-	text-align: center;
-	display: block;
-	margin: auto;
-	margin-top: 2px;
-}
-
-.ghIcon img {
-	width: 28px;
-	height: 28px;
-	text-align: center;
-	display: block;
-	margin: auto;
-	margin-top: 2px;
-}
-
-.headshot img{
-	border-radius: 12px;
-}
-
-.name {
-	color: #dadada;
-	font-family: Fira Code;
-	text-align: center;
-	font-size: 42px;
-	font-weight: bolder;
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.subname {
-	color: #c9c9c9;
-	font-family: Fira Code;
-	text-align: center;
-	font-size: 22px;
-}
-
-.subname p {
-	margin: 5px;
 }
 
 .topButtons button {
@@ -108,4 +29,82 @@ ul {
 .topButtons a{
 	text-decoration: none;
 	color: inherit;
+}
+
+button:hover {
+	background-color: #491019;
+	color: white;
+}
+
+p {
+	overflow: hidden;
+}
+
+body {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#HomeInfo {
+	font-family: Fira Code;
+	font-size: 16px;
+	color: #dadada;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 1%;
+}
+
+.ghIcon img {
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 2px;
+}
+
+.eIcon img {
+	width: 34px;
+	height: 24px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 2px;
+}
+
+.name {
+	color: #dadada;
+	font-family: Fira Code;
+	text-align: center;
+	font-size: 42px;
+	font-weight: bolder;
+}
+
+.subname {
+	color: #c9c9c9;
+	font-family: Fira Code;
+	text-align: center;
+	font-size: 22px;
+}
+.subname p {
+	margin: 5px;
+}
+
+.headshot img{
+	border-radius: 12px;
 }
