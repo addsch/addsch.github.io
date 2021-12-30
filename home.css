@@ -17,12 +17,12 @@ ul {
 	margin: 4px 24px;
 	padding: 15px 16px;
 	text-align: center;
-	transition-duration: 0.3s;
 	width:14vw;
 }
 
 .topButtons {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -34,6 +34,7 @@ ul {
 button:hover {
 	background-color: #491019;
 	color: white;
+	transition-duration: 0.3s;
 }
 
 p {
