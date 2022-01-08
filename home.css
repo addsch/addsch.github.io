@@ -1,132 +1,134 @@
-@media only screen and (min-width: 850px) {
-	.topButtons button {
-		background-color: #9d2235;
-		border: none;
-		border-radius: 16px;
-		color: #dadada;
-		cursor: pointer;
-		float: left;
-		font-family: Fira Mono;
-		font-size: 24px;
-		margin: 4px 24px;
-		padding: 15px 16px;
-		text-align: center;
-		width:14vw;
-	}
-	.topButtons {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-	
-	.column {
-		float: left;
-		width: 50%;
-		padding: 1%;
-	}
+@media only screen and (min-width: 849.01px) {
+    .topButtons button {
+        background-color: #9d2235;
+        border: none;
+        border-radius: 16px;
+        color: #dadada;
+        cursor: pointer;
+        float: left;
+        font-family: Fira Mono;
+        font-size: 24px;
+        margin: 4px 24px;
+        padding: 15px 16px;
+        text-align: center;
+        width: 17vw;
+    }
+    .topButtons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .column {
+        float: left;
+        width: 50%;
+        padding: 1%;
+    }
 }
 
 @media only screen and (max-width: 849px) {
-	.topButtons button {
-		background-color: #9d2235;
-		border: none;
-		border-radius: 16px;
-		color: #dadada;
-		cursor: pointer;
-		font-family: Fira Mono;
-		font-size: 24px;
-		margin: 4px 24px;
-		padding: 15px 16px;
-		text-align: center;
-		width: 50vw;
-	}
-	.topButtons {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
+    .topButtons button {
+        background-color: #9d2235;
+        border: none;
+        border-radius: 16px;
+        color: #dadada;
+        cursor: pointer;
+        font-family: Fira Mono;
+        font-size: 24px;
+        margin: 4px 24px;
+        padding: 15px 16px;
+        text-align: center;
+        width: 50vw;
+    }
+    .topButtons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    button:hover {
+        background-color: #491019;
+        color: white;
+        transition-duration: 0.2s;
+    }
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.topButtons a{
-	text-decoration: none;
-	color: inherit;
-}
-
-button:hover {
-	background-color: #491019;
-	color: white;
-	transition-duration: 0.3s;
+.topButtons a {
+    text-decoration: none;
+    color: inherit;
 }
 
 p {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 body {
-	width: 70%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: black;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
 }
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #HomeInfo {
-	font-family: Fira Code;
-	font-size: 16px;
-	color: #dadada;
+    font-family: Fira Code;
+    font-size: 16px;
+    color: #dadada;
 }
 
 .ghIcon img {
-	width: 28px;
-	height: 28px;
-	text-align: center;
-	display: block;
-	margin: auto;
-	margin-top: 2px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
 }
 
 .eIcon img {
-	width: 34px;
-	height: 24px;
-	text-align: center;
-	display: block;
-	margin: auto;
-	margin-top: 2px;
+    width: 34px;
+    height: 24px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
 }
 
 .name {
-	color: #dadada;
-	font-family: Fira Code;
-	text-align: center;
-	font-size: 42px;
-	font-weight: bolder;
+    color: #dadada;
+    font-family: Fira Code;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
 }
 
 .subname {
-	color: #c9c9c9;
-	font-family: Fira Code;
-	text-align: center;
-	font-size: 22px;
-}
-.subname p {
-	margin: 5px;
+    color: #c9c9c9;
+    font-family: Fira Code;
+    text-align: center;
+    font-size: 22px;
 }
 
-.headshot img{
-	border-radius: 12px;
+.subname p {
+    margin: 5px;
+}
+
+.headshot img {
+    border-radius: 12px;
 }
