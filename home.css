@@ -1,29 +1,62 @@
+@media only screen and (min-width: 850px) {
+	.topButtons button {
+		background-color: #9d2235;
+		border: none;
+		border-radius: 16px;
+		color: #dadada;
+		cursor: pointer;
+		float: left;
+		font-family: Fira Mono;
+		font-size: 24px;
+		margin: 4px 24px;
+		padding: 15px 16px;
+		text-align: center;
+		width:14vw;
+	}
+	.topButtons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	.column {
+		float: left;
+		width: 50%;
+		padding: 1%;
+	}
+}
+
+@media only screen and (max-width: 849px) {
+	.topButtons button {
+		background-color: #9d2235;
+		border: none;
+		border-radius: 16px;
+		color: #dadada;
+		cursor: pointer;
+		font-family: Fira Mono;
+		font-size: 24px;
+		margin: 4px 24px;
+		padding: 15px 16px;
+		text-align: center;
+		width: 50vw;
+	}
+	.topButtons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-}
-
-.topButtons button {
-	background-color: #9d2235;
-	border: none;
-	border-radius: 16px;
-	color: #dadada;
-	cursor: pointer;
-	float: left;
-	font-family: Fira Mono;
-	font-size: 24px;
-	margin: 4px 24px;
-	padding: 15px 16px;
-	text-align: center;
-	width:14vw;
-}
-
-.topButtons {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 .topButtons a{
@@ -56,18 +89,6 @@ body {
 	font-family: Fira Code;
 	font-size: 16px;
 	color: #dadada;
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.column {
-	float: left;
-	width: 50%;
-	padding: 1%;
 }
 
 .ghIcon img {
