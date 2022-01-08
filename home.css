@@ -92,10 +92,6 @@ body {
     color: #dadada;
 }
 
-h2 {
-    color: rgb(0, 196, 0);
-}
-
 .icon img {
     width: 28px;
     height: 28px;
@@ -135,4 +131,8 @@ h2 {
 
 .headshot img {
     border-radius: 12px;
+}
+
+h2 {
+    color: rgb(0, 196, 0);
 }
