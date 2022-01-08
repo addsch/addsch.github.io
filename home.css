@@ -8,10 +8,10 @@
         float: left;
         font-family: Fira Mono;
         font-size: 24px;
-        margin: 4px 24px;
+        margin: 4px 14px;
         padding: 15px 16px;
         text-align: center;
-        width: 17vw;
+        width: 14vw;
     }
     .topButtons {
         display: flex;
@@ -92,7 +92,11 @@ body {
     color: #dadada;
 }
 
-.ghIcon img {
+#textWrite {
+    color: rgb(0, 196, 0);
+}
+
+.icon img {
     width: 28px;
     height: 28px;
     text-align: center;
