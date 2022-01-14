@@ -12,10 +12,10 @@ const typeTimer = setInterval(function () {
         i = 0;
         setInterval(function () {
             if (i === 0) {
-                doc.innerHTML = "> " + str + "|"
+                doc.innerHTML = "> " + str + "|";
                 i = 1;
             } else {
-                doc.innerHTML = "> " + str
+                doc.innerHTML = "> " + str;
                 i = 0;
             };
         }, 500);
