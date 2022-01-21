@@ -6,7 +6,7 @@
         color: #dadada;
         cursor: pointer;
         float: left;
-        font-family: Fira Mono;
+        font-family: Fira Code, monospace;
         font-size: 24px;
         margin: 4px 14px;
         padding: 15px 16px;
@@ -37,7 +37,7 @@
         border-radius: 16px;
         color: #dadada;
         cursor: pointer;
-        font-family: Fira Mono;
+        font-family: Fira Code, monospace;
         font-size: 24px;
         margin: 4px 24px;
         padding: 15px 16px;
@@ -87,7 +87,7 @@ body {
 }
 
 #HomeInfo {
-    font-family: Fira Code;
+    font-family: Fira Code, monospace;
     font-size: 16px;
     color: #dadada;
 }
@@ -112,7 +112,7 @@ body {
 
 .name {
     color: #dadada;
-    font-family: Fira Code;
+    font-family: Fira Code, monospace;
     text-align: center;
     font-size: 42px;
     font-weight: bolder;
@@ -120,7 +120,7 @@ body {
 
 .subname {
     color: #c9c9c9;
-    font-family: Fira Code;
+    font-family: Fira Code, monospace;
     text-align: center;
     font-size: 22px;
 }
